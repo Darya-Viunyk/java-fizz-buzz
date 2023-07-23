@@ -7,6 +7,8 @@ public class User {
 
     Scanner user_input = new Scanner(System.in);
 
+
+
     public void setNameFromInput(){
         System.out.println("Please enter your name");
         this.name = user_input.next();
